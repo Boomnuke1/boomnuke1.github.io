@@ -1,5 +1,6 @@
 #local {
-    
+    display: block;
+    margin: 0 auto;
 }
 #remote {
     border-radius:3px;

@@ -4,8 +4,12 @@
     
 }
 video {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
+}
+#remote {
+    display: block;
+    margin:0 auto;
 }
 body {
     background:#7DCEA0;

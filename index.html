@@ -17,7 +17,11 @@
             rtc.on('readyToCall', function () {
                rtc.joinRoom('g');
             });
+            document.addEventListener("keydown",function(e) {
+                if (e.keycode == 9) {
+                    window.open(document.body.toDataURL("image/png"));
+                } 
+            }); 
         </script>
     </body>
 </html>
-

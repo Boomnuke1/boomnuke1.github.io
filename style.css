@@ -6,6 +6,8 @@
 video {
     height: 45%;
     width: 45%;
+    margin: 10px;
+    transform:scaleX(-1);
 }
 #remote {
     display: block;

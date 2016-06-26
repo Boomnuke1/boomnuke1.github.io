@@ -7,8 +7,7 @@
     </head>
     <body>
         <video id="local"></video>
-        <div id="remote"></div>
-        <canvas id="canvas"></canvas>
+        <div id="remote" oncontextmenu="return false;"></div>
         <script>
             var rtc = new SimpleWebRTC({
                 localVideoEl: 'local',
